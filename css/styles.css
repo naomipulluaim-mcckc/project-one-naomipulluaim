@@ -5,6 +5,13 @@
     box-sizing: border-box; 
 }
 
+/* color hex codes
+
+#0f1e42 dark blue  + 56% opacity
+#bebcc7 light grey
+#00001c blackish
+#efeeed white
+
 /* body copy and grid starter*/
 body {
     /* the page grid: 12 columns, same as figma file*/
