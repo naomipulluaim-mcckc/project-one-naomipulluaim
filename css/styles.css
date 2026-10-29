@@ -81,7 +81,8 @@ header {
 
 /*dividers*/
 hr {
-    border-top: 3px solid #111111;
+    max-width: 1440px;
+    height: 3px;
     display: block;
 }
 
