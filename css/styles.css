@@ -127,8 +127,9 @@ header {
 }
 
 .hero h1 {
-    font-size: 96px;
+    font-size: 120px;
     font-weight: 900;
+    text-transform: uppercase;
 }
 
 .hero p {
