@@ -72,7 +72,8 @@ header {
 }
 
 .site-header-a {
-    color:#bebcc7;
+    background:#bebcc7;
+    color: #111111;
     text-decoration: none;
 }
 
