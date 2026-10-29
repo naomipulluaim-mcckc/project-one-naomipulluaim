@@ -68,13 +68,15 @@ header {
 
 }
 
-.site-header-b, .site-footer {
+.site-header-b, .site-footer-b {
+    background:#bebcc7;
+    color: #111111;
+    text-decoration: none;
     display: flex;
+    padding: 20px;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 32px;
-    background: #111111;
-    color: #F4F1EA;
+
 }
 
 /*nav*/
@@ -112,7 +114,17 @@ header {
     color: #F4F1EA;
 }
 
-
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-height: 520px;
+    padding: 48px 32px;
+    color: #111111;
+    text-align: center;
+}
 
 .hero p {
     width: 50%;
