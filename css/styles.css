@@ -79,6 +79,15 @@ header {
 
 }
 
+/*dividers*/
+hr.solid {
+    border-top: 3px solid #111111;
+}
+
+hr.solid-thicker {
+    border-top: 8px solid #111111;
+}
+
 /*nav*/
 
 nav {
