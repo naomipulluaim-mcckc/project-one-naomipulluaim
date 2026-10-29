@@ -92,6 +92,17 @@ hr.solid-thicker {
     border-width: auto;
 }
 
+
+/*div for placeholders*/
+
+.div {
+    background: #333333;
+    border: 4px solid #eeeeee;
+    border-style: double;
+    display: grid;
+    grid-template-columns: auto;
+}
+
 /*nav*/
 
 nav {
