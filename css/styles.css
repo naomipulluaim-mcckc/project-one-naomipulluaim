@@ -54,6 +54,29 @@ img {
     display: block;
 }
 
+/*header*/
+header {
+    grid-column: 1 / 13;
+}
+
+.site-header-a {
+    background:#bebcc7;
+    color: #111111;
+    text-decoration: none;
+    display: flex;
+    margin: auto 10px;
+
+}
+
+.site-header-b, .site-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 32px;
+    background: #111111;
+    color: #F4F1EA;
+}
+
 /*nav*/
 
 nav {
