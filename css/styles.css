@@ -18,7 +18,7 @@ body {
 background: #F9ECCD;
 margin: 0 auto;
 display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 grid-template-rows: auto;
 column-gap: 24px;
 
@@ -84,11 +84,6 @@ header {
     padding: 20px 32px;
     background: #111111;
     color: #F4F1EA;
-}
-
-.site-header-c {
-    color: #F4F1EA;
-    text-decoration: none;
 }
 
 
