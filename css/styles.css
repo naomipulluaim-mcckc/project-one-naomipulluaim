@@ -82,22 +82,10 @@ header {
 /*dividers*/
 hr {
     border-top: 3px solid #111111;
-    display: grid;
-    grid-template-columns: auto;
-}
-
-.hr-solid-thin {
-    border-top: 3px solid #111111;
-    column-span: all;
-
+    display: block;
 }
 
 
-.hr-solid-thicker {
-    border-top: 8px solid #111111;
-    display: flex;
-    border-width: auto;
-}
 
 
 /*div for placeholders*/
