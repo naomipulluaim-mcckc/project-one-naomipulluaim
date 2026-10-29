@@ -82,7 +82,8 @@ header {
 /*dividers*/
 hr {
     border-top: 3px solid #111111;
-    max-width: 1440px;
+    display: grid;
+    grid-template-columns: auto;
 }
 
 hr.solid-thicker {
