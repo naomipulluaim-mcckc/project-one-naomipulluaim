@@ -80,9 +80,8 @@ header {
 }
 
 /*dividers*/
-hr.solid {
+hr {
     border-top: 3px solid #111111;
-    display: flex;
     max-width: 1440px;
 }
 
