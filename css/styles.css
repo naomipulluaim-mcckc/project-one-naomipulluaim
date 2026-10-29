@@ -23,15 +23,17 @@ grid-template-rows: auto;
 column-gap: 24px;
 
 /*placeholder for own font, size and color*/
-font-family: Arial, Helvetica, sans-serif;
+font-family: "picholine-antique-variable", Arial, Helvetica, sans-serif;
+font-variation-settings: "wght" 100;
 font-size: 18px;
 line-height: 1.5;
-color: #111;
+color: #111111;
 }
 
 /*heading styling*/
 h1, h2, h3 {
-
+    font-family: "picholine-antique-variable", Arial, Helvetica, sans-serif;
+    font-variation-settings: "wght" 400;
 }
 
 /*links*/
