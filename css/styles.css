@@ -18,7 +18,7 @@ body {
 background: #F9ECCD;
 margin: 0 auto;
 display: grid;
-grid-template-columns: auto / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 grid-template-rows: auto;
 column-gap: 24px;
 
@@ -46,6 +46,11 @@ a {
 /*other copy*/
 p {
     margin-bottom: 8px;
+    font-family: "picholine-antique-variable", Arial, Helvetica, sans-serif;
+    font-variation-settings: "wght" 300;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #111111;
 }
 
 img {
@@ -83,8 +88,10 @@ header {
 hr {
     max-width: 1440px;
     height: 3px;
+    display: block;
 }
 
+.hr
 
 
 
