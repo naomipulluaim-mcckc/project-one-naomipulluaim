@@ -53,6 +53,23 @@ img {
 
 /*nav*/
 
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    margin-left: auto;
+}
+
+/*header*/
+header {
+    grid-column: 1 / 13;
+}
+
 .site-header-a {
     color:#bebcc7;
     text-decoration: none;
@@ -72,22 +89,7 @@ img {
     text-decoration: none;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-}
 
-nav ul {
-    display: flex;
-    gap: 32px;
-    list-style: none;
-    margin-left: auto;
-}
-
-/*header*/
-header {
-    grid-column: 1 / 13;
-}
 
 .hero p {
     width: 50%;
