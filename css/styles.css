@@ -126,6 +126,10 @@ header {
     text-align: center;
 }
 
+.hero h1 {
+    font-size: 96px;
+}
+
 .hero p {
     width: 50%;
 }
