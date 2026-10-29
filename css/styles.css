@@ -83,7 +83,7 @@ header {
 hr.solid {
     border-top: 3px solid #111111;
     display: flex;
-    border-width: auto;
+    max-width: 1440px;
 }
 
 hr.solid-thicker {
