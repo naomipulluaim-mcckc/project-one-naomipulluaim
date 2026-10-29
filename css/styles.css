@@ -52,6 +52,26 @@ img {
 }
 
 /*nav*/
+
+.site-header-a {
+    color:#bebcc7;
+    text-decoration: none;
+}
+
+.site-header-b, .site-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 32px;
+    background: #111111;
+    color: #F4F1EA;
+}
+
+.site-header-c {
+    color: #F4F1EA;
+    text-decoration: none;
+}
+
 nav {
     display: flex;
     align-items: center;
