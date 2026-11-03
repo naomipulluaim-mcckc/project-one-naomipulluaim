@@ -123,7 +123,7 @@ header {
     grid-column: 1 / 13;
 }
 
-.site-header-a {
+.site-header {
     background:#bebcc7;
     color: #111111;
     text-decoration: none;
