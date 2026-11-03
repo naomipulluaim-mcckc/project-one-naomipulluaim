@@ -14,26 +14,39 @@
 
 /* body copy and grid starter*/
 body {
-    /* the page grid: 12 columns, same as figma file*/
 background: #F9ECCD;
 margin: 0 auto;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 grid-template-rows: auto;
 column-gap: 24px;
+}
+
+/* the page grid: 12 columns, same as figma file*/
+
 
 /*placeholder for own font, size and color*/
-font-family: "picholine-antique-variable", Arial, Helvetica, sans-serif;
-font-variation-settings: "wght" 300;
-font-size: 18px;
-line-height: 1.5;
-color: #111111;
+
+.pirata-one {
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
+
+
+.newsreader-bold {
+  font-family: "Newsreader", Georgia, 'Times New Roman', Times, serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 
 /*heading styling*/
 h1, h2, h3 {
-    font-family: "picholine-antique-variable", Arial, Helvetica, sans-serif;
-    font-variation-settings: "wght" 400;
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
     line-height: 1;
 }
 
@@ -46,7 +59,7 @@ a {
 /*other copy*/
 p {
     margin-bottom: 8px;
-    font-family: "picholine-antique-variable", Arial, Helvetica, sans-serif;
+    font-family: "Newsreader", Georgia, 'Times New Roman', Times, serif;
     font-variation-settings: "wght" 300;
     font-size: 18px;
     line-height: 1.5;
@@ -61,7 +74,7 @@ img {
 
 /*header*/
 header {
-    grid-column: 1 / 13;
+    grid-column: 1 / 12;
 }
 
 .site-header-a {
@@ -86,6 +99,7 @@ header {
 
 /*dividers*/
 hr {
+    grid-column: span 12;
     max-width: 1440px;
     height: 3px;
     display: block;
@@ -108,7 +122,7 @@ hr {
 nav {
     display: flex;
     align-items: center;
-    grid-column: span 13;
+    grid-column: span 12;
 }
 
 nav ul {
@@ -120,7 +134,7 @@ nav ul {
 
 /*header*/
 header {
-    grid-column: 1 / 13;
+    grid-column: 1 / 12;
 }
 
 .site-header {
@@ -195,10 +209,12 @@ footer {
 
 .span-3 {
     grid-column: span 3;
+    text-align: left;
 }
 
 .span-4 {
     grid-column: span 4;
+    text-align: right;
 }
 
 .span-5 {
