@@ -101,15 +101,15 @@ header {
 hr {
     grid-column: span 12;
     max-width: 1440px;
-    height: 4px;
-    display: block;
+    border-width: 4px;
+    border-style: solid;
 }
 
 .hr-8px {
     grid-column: span 12;
     max-width: 1440px;
-    height: 8px;
-    display: block;
+    border-width: 8px;
+    border-style: solid;
 }
 
 
