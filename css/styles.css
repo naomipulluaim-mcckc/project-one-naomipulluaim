@@ -132,6 +132,17 @@ nav ul {
     margin-right: auto;
 }
 
+.nav-h2 {
+    font-family: "Newsreader", Georgia, 'Times New Roman', Times, serif;
+    font-optical-sizing: 40;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nav-h2-p2 {
+    color: #9B321F;
+}
+
 /*header*/
 header {
     grid-column: 1 / 12;
