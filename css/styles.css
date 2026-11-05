@@ -206,14 +206,25 @@ section {
     margin: 48 auto;
     padding: 30px 48px;
     border:#111111 solid 1px;
-    font-size: 24px;
+    text-align: center;
 }
 
 .info div {
     background-color: #333333;
     box-sizing: content-box;
-    width: 435px;
+    max-width: 435px;
     max-height: 555px;
+    padding: 10px 0px;
+}
+
+.info h2 {
+    font-family: "Pirata One", sans-serif;
+    font-size: 48px;
+}
+
+.info p {
+    font-family: "Newspaper", serif;
+    font-size: 24px;
 }
 
 section h2 {
