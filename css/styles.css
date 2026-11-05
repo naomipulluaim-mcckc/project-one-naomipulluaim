@@ -214,7 +214,7 @@ section {
     box-sizing: content-box;
     max-width: 435px;
     max-height: 555px;
-    padding: 10px 0px;
+    margin: 0px 10px;
 }
 
 .info h2 {
