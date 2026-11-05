@@ -159,25 +159,9 @@ nav ul {
     color: #9B321F;
 }
 
-/*header*/
-header {
-    grid-column: 1 / 13;
-}
 
-.site-header {
-    background:#bebcc7;
-    color: #111111;
-    text-decoration: none;
-}
 
-.site-header-b, .site-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 32px;
-    background: #111111;
-    color: #F4F1EA;
-}
+
 
 .hero {
     display: flex;
@@ -214,12 +198,32 @@ section {
     grid-template-columns: subgrid;
 }
 
+/*testing to see if the spacing in right*/
+
+.info {
+    display: grid;    
+    grid-template: auto / 1fr 1fr 1fr;
+    margin: 48 auto;
+    padding: 30px 48px;
+    border:#111111 solid 1px;
+    font-size: 24px;
+}
+
+.info div {
+    background-color: #333333;
+    box-sizing: content-box;
+    width: 435px;
+    max-height: 555px;
+}
+
 section h2 {
     grid-column: 1 / 13;
 }
+
 /*span 4= 3 items, span 6 for 2 items*/
 article {
     grid-column: span 4;
+    
 }
 
 /*footer*/
